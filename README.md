@@ -3,7 +3,7 @@
 Image to log incoming request data for an api and debug Network issues in Kubernetes environment 
 
 
-## prerequisets
+## Prerequisites
 
 Make sure there is no other container running with label app=print-request-v1 you can check by 
 
