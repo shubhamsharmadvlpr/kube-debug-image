@@ -1,4 +1,4 @@
-# kube-debug-img
+# kube-debug-image
 
 Image to log incoming request data for an api and debug Network issues in Kubernetes environment 
 
