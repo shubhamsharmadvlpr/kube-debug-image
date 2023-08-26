@@ -55,13 +55,13 @@ Note: You can Adjust response time to debug network issues by setting HTTP_SERVE
 
 2) Addition to this, Image has preinstalled network utilities and db clients for Mysql, postgres and mongo tools that can be access via exec into the pod
 
-cmd ```
-kubect  exec -it print-request sh 
+```cmd
+kubectl  exec -it print-request sh 
 ```
 
-## Uninstall 
+## Uninstallation 
 
-# you can run uninstall.sh or run following commands 
+Run uninstall.sh or following commands to delete the resources. 
 
 kubectl delete all -l app=print-request-v1
 kubectl delete ing print-request
