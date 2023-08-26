@@ -7,9 +7,11 @@ Image to log incoming request data for an api and debug Network issues in Kubern
 
 Make sure there is no other container running with label app=print-request-v1 you can check by 
 
-Kubectl get all -l app=print-request-v1
+```cmd
+kubectl get all -l app=print-request-v1
+```
 
-We are using 
+make sure result is "No resources found in default namespace."
 
 ## Installation
 
