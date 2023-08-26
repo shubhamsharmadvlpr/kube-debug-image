@@ -63,5 +63,7 @@ kubectl  exec -it print-request sh
 
 Run uninstall.sh or following commands to delete the resources. 
 
+```cmd
 kubectl delete all -l app=print-request-v1
 kubectl delete ing print-request
+```
