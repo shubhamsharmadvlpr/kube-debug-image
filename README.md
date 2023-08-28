@@ -4,13 +4,16 @@ Lightweight Image to inspect request data/headers and debug network related issu
 
 ## Prerequisites
 
-Make sure there is no other container running with label app=print-request-v1 you can check by 
+1) Make sure there is no other container running with label app=print-request-v1 you can check by 
 
 ```cmd
 kubectl get all -l app=print-request-v1
 ```
 
-make sure result is "No resources found in default namespace."
+Result should be "No resources found in default namespace."
+
+2) "/print-request" is not being used by an existing rule in ingress
+
 
 ## Installation
 
