@@ -1,7 +1,6 @@
 # kube-debug-image
 
-Image to log incoming request data for an api and debug Network issues in Kubernetes environment 
-
+Lightweight Image to inspect request data/headers and debug network related issues in kubernetes environment.
 
 ## Prerequisites
 
